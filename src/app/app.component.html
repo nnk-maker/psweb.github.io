@@ -1,0 +1,33 @@
+<nav>
+   <!-- Toggle Button for Mobile -->
+   <button class="mobile-menu-toggle" (click)="toggleMobileMenu()">☰</button>
+   <!-- Single Menu Container <button class="close-button" (click)="toggleMobileMenu()">×</button> -->
+  <div class="menu" [ngClass]="{ 'show': isMobileMenuOpen }">
+    <button class="close-button" (click)="toggleMobileMenu()">X</button>    
+    <a class="button"
+     routerLink="/crisis-list"
+     routerLinkActive="activebutton"
+     ariaCurrentWhenActive="page">
+    Home
+  </a> |
+  <a class="button"
+     routerLink="/heroes-list"
+     routerLinkActive="activebutton"
+     ariaCurrentWhenActive="page">
+    Service
+  </a>  |
+  <a class="button"
+     routerLink="/about"
+     routerLinkActive="activebutton"
+     ariaCurrentWhenActive="page">
+    Aboutinfo
+  </a>  |
+  <a class="button"
+     routerLink="/contact"
+     routerLinkActive="activebutton"
+     ariaCurrentWhenActive="page">
+    contact
+  </a>
+  </div>
+</nav>
+<router-outlet></router-outlet>

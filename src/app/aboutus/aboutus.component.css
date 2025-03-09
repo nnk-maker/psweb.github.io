@@ -1,0 +1,22 @@
+.about-section {
+    padding: 40px 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #333;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .section-description {
+    font-size: 1.1rem;
+    color: #666;
+    text-align: center;
+    line-height: 1.6;
+  }
+  

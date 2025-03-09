@@ -1,0 +1,22 @@
+.contact-section {
+    padding: 40px 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .contact-button {
+    padding: 12px 30px;
+    background-color: #333333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-button:hover {
+    background-color: #1f2a56;
+  }
