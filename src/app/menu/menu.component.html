@@ -1,0 +1,16 @@
+<div class="menu-table-container">
+  <h2>Our Menu</h2>
+<div class="menu-row">
+  <div *ngFor="let category of menuCategories$" class="menu-column" >
+    <div class="menu-category">
+    <h3>{{ category.name }}</h3>
+    <ul>
+      <li *ngFor="let item of category.items">
+        <span class="item-name">{{ item.name }}</span>
+        <span class="item-price">${{ item.price.toFixed(2) }}</span>
+      </li>
+    </ul>
+    </div>
+    </div>
+  </div>    
+</div>

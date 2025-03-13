@@ -1,0 +1,27 @@
+.reviews-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .reviews-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .review-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: calc(33.33% - 1rem);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem; /* Add margin to separate rows */
+  }
+  
+  .rating {
+    color: gold;
+    font-size: 1.2rem;
+  }

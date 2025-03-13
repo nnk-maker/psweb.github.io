@@ -1,11 +1,25 @@
 /* General Styles */
 nav {
-    background-color: #333;
-    padding: 10px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
+    background-color: #333;
+    padding: 15x 20px;
+    flex-wrap: wrap;
   }
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; /* Adjust as needed */
+}
+
+.logo {
+    height: 40px; /* Adjust logo size */
+    /* Add logo styles as needed */
+}
+
+
   
   .button {
     color: white;

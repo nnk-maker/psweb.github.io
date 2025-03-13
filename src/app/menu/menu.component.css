@@ -1,0 +1,64 @@
+/* Menu Container */
+.menu-table-container {
+  width: 100%; /* Take up the full width */
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+/* Menu Row */
+.menu-row {
+  display: flex; /* Enable Flexbox */
+  flex-wrap: wrap; /* Wrap columns if needed */
+  justify-content: space-around; /* Distribute columns evenly */
+}
+
+/* Menu Column */
+.menu-column {
+  flex: 1; /* Distribute available space equally */
+  min-width: 250px; /* Minimum width for columns */
+  margin: 10px; /* Space between columns */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Menu Category */
+.menu-category {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.menu-category h3 {
+  font-size: 2rem;
+  color: #ff6347;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ff6347;
+  display: inline-block;
+}
+
+/* Menu Items */
+.menu-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-category li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-price {
+  color: #555;
+}

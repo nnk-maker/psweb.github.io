@@ -1,4 +1,10 @@
-<nav>
+<nav class="nav">
+  <div class="logo-container">
+    <a class="nav-logo" routerLink="/" routerLinkActive="active">
+      <img src="../assets/logo.png" alt="Painter Pro Logo" class="logo">
+    </a>
+    <!-- <img src="your-logo.png" alt="Your Logo" class="logo"> <a>|</a> -->
+  </div>
    <!-- Toggle Button for Mobile -->
    <button class="mobile-menu-toggle" (click)="toggleMobileMenu()">☰</button>
    <!-- Single Menu Container <button class="close-button" (click)="toggleMobileMenu()">×</button> -->
@@ -27,7 +33,13 @@
      routerLinkActive="activebutton"
      ariaCurrentWhenActive="page">
     contact
-  </a>
+  </a>  |
+        <a class="button"
+        routerLink="/menu"
+        routerLinkActive="activebutton"
+        ariaCurrentWhenActive="page">
+        Menu
+        </a>
   </div>
 </nav>
 <router-outlet></router-outlet>
