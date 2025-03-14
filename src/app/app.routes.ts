@@ -4,6 +4,7 @@ import { HeroesListComponent } from './heroes-list/heroes-list.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactComponent } from './contact/contact.component';
 import { MenuComponent } from './menu/menu.component';
+import { DishDetailsComponent } from './dish-details/dish-details.component';
 
 export const routes: Routes = [
     {path: 'crisis-list', component: CrisisListComponent},
@@ -11,5 +12,7 @@ export const routes: Routes = [
     {path: 'about', component: AboutusComponent},
     {path: 'contact', component: ContactComponent},
     { path: 'menu', component: MenuComponent },
+    { path: 'disk-details/:id', component: DishDetailsComponent },
+    {path: '', redirectTo: '/crisis-list', pathMatch: 'full'},
     {path: '', redirectTo: '/crisis-list', pathMatch: 'full'},
 ];

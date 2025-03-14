@@ -7,7 +7,9 @@ nav {
     padding: 15x 20px;
     flex-wrap: wrap;
   }
-
+.nv-logo {
+  background-image: url('../assets/logo1.png');
+}
 .logo-container {
     display: flex;
     align-items: center;

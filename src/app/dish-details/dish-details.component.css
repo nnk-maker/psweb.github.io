@@ -1,0 +1,11 @@
+.dish-details-container {
+    padding: 20px;
+    text-align: center; /* Center the content */
+  }
+  
+  .dish-details-container img {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+  }

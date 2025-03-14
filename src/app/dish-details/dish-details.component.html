@@ -1,0 +1,12 @@
+<div class="dish-details-container" *ngIf="dishDetails">
+    <h2>{{ dishDetails.name }}</h2>
+    <img [src]="dishDetails.image" alt="Dish Image" *ngIf="dishDetails.image">
+    <p>{{ dishDetails.description }}</p>
+    <p>Price: {{ dishDetails.price }}</p>
+  </div>
+  <div class="dish-details-container" *ngIf="!dishDetails && dishId">
+    <p>Could not find dish with id: {{ dishId }}</p>
+  </div>
+  <div class="dish-details-container" *ngIf="!dishId">
+    <p>Please select a dish.</p>
+  </div>
