@@ -1,0 +1,78 @@
+[
+    {
+      "name": "Starters",
+      "items": [
+        {
+          "id": 1, "name": "Garlic Bread", 
+          "price": 5.99, 
+          "description": "Crispy garlic bread with herbs.", 
+          "image": "assets/garlic-bread.jpg" 
+        },
+        { 
+          "id": 2, "name": "Bruschetta", 
+          "price": 7.99,
+          "description": "Toasted bread with tomatoes and basil.",
+          "image": "assets/bruschetta.jpg" 
+        },
+        {
+          "id": 3, 
+          "name": "Caesar Salad", 
+          "price": 8.99,
+          "description": "Classic Caesar salad with croutons.",
+          "image": "assets/bruschetta.jpg"
+        }        
+      ]
+    },
+    {
+      "name": "Main Course",
+      "items": [
+        {
+          "id": 4, 
+          "name": "Grilled Salmon", 
+          "price": 18.99,
+          "description": "Classic Caesar salad with croutons.",
+          "image": "assets/bruschetta.jpg"
+         },
+        {
+          "id": 5,
+          "name": "Chicken Alfredo", 
+          "price": 15.99,
+          "description": "Classic Caesar salad with croutons.",
+          "image": "assets/bruschetta.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Vegetable Stir Fry", 
+          "price": 12.99 ,
+          "description": "Classic Caesar salad with croutons.",
+          "image": "assets/bruschetta.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "id": 7, 
+          "name": "Chocolate Cake", 
+          "price": 6.99 ,
+          "description": "Classic Caesar salad with croutons.",
+          "image": "assets/bruschetta.jpg"
+        },
+        {
+          "id": 8, 
+          "name": "Cheesecake", 
+          "price": 7.99 ,
+          "description": "Classic Caesar salad with croutons.",
+          "image": "assets/bruschetta.jpg"
+        },
+        {
+          "id": 9, 
+          "name": "Tiramisu", 
+          "price": 8.99,
+          "description": "Classic Caesar salad with croutons.",
+          "image": "assets/bruschetta.jpg"
+         }
+      ]
+    } 
+  ]
