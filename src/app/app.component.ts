@@ -1,12 +1,12 @@
 import { Component, HostListener } from '@angular/core';
-import { RouterLink, RouterOutlet } from '@angular/router';
 import { CrisisListComponent } from './crisis-list/crisis-list.component';
 import { HeroesListComponent } from './heroes-list/heroes-list.component';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, RouterLink,CommonModule],
+  imports: [RouterOutlet,RouterLink,CommonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
